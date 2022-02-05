@@ -1,4 +1,3 @@
 from .home import dashboard, index
-from .accounts import profile
-from .settings import settings
+from .tracker import update_tracker_location
 

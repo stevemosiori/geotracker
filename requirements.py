@@ -1,0 +1,13 @@
+asgiref==3.5.0
+backports.zoneinfo==0.2.1
+certifi==2021.10.8
+charset-normalizer==2.0.11
+Django==4.0.2
+geographiclib==1.52
+geolocation-python==0.2.2
+geopy==2.2.0
+idna==3.3
+mysqlclient==2.1.0
+requests==2.27.1
+sqlparse==0.4.2
+urllib3==1.26.8
