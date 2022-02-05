@@ -10,7 +10,9 @@ class TrackerLocation(models.Model):
         db_table = 'tracker_locations'
 
 class Tracker(models.Model):
-    name = models.CharField(max_length=100)
+    child_id = models.CharField(max_length=100)
+    child_first_name = models.CharField(max_length=100)
+    child_last_name = models.CharField(max_length=100)
     tracker_id = models.CharField(max_length=100, primary_key=True)
     timestamp = models.DateTimeField(auto_now_add=True)
 
