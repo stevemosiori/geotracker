@@ -4,6 +4,7 @@ class TrackerLocation(models.Model):
     latitude = models.FloatField()
     longitude = models.FloatField()
     timestamp = models.DateTimeField(auto_now_add=True)
+    physical_address = models.CharField(max_length=255)
     tracker = models.ForeignKey('Tracker', on_delete=models.CASCADE)
 
     class Meta:
